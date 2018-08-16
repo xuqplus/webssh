@@ -1,5 +1,10 @@
-启动指令  
-`docker run -itd -p 443:4200 --hostname centos webssh`  
+运行构建脚本  
+`./build`  
 
-页面效果 
+运行启动脚本  
+`./start`  
+
+注意: ssh密码请在Dockerfile内修改, 容器端口映射请在`start`脚本内修改  
+
+实际效果 
 ![Alt text](https://github.com/xuqplus/webssh/blob/master/webssh.jpg)
